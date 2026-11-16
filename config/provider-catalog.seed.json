@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "repository": "https://github.com/casiailabsx-ux/Ll",
+    "readme": "https://github.com/casiailabsx-ux/Ll/blob/main/README.md",
+    "observed_at": "2026-11-16",
+    "note": "Candidate seed only; verify official provider docs, entitlement, terms, models and quotas before enabling."
+  },
+  "providers": [
+    {
+      "id": "groq",
+      "name": "Groq",
+      "adapter": "openai_compatible",
+      "base_url": "https://api.groq.com/openai/v1",
+      "signup_url": "https://console.groq.com/keys",
+      "free_tier_class": "provider_free_tier",
+      "requires_card": false,
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "google-gemini",
+      "name": "Google Gemini",
+      "adapter": "gemini_native",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "signup_url": "https://aistudio.google.com/app/apikey",
+      "free_tier_class": "provider_free_tier",
+      "requires_card": false,
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "adapter": "openai_compatible",
+      "base_url": "https://api.cerebras.ai/v1",
+      "signup_url": "https://cloud.cerebras.ai/",
+      "free_tier_class": "provider_free_tier",
+      "requires_card": false,
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "adapter": "openai_compatible",
+      "base_url": "https://api.mistral.ai/v1",
+      "signup_url": "https://console.mistral.ai/api-keys",
+      "free_tier_class": "provider_free_tier",
+      "requires_card": false,
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "huggingface-router",
+      "name": "Hugging Face Router",
+      "adapter": "openai_compatible",
+      "base_url": "https://router.huggingface.co/v1",
+      "signup_url": "https://huggingface.co/settings/tokens",
+      "free_tier_class": "provider_free_tier",
+      "requires_card": false,
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "nvidia-nim",
+      "name": "NVIDIA NIM",
+      "adapter": "openai_compatible",
+      "base_url": "https://integrate.api.nvidia.com/v1",
+      "signup_url": "https://build.nvidia.com/settings/api-keys",
+      "free_tier_class": "provider_free_tier",
+      "requires_card_or_verification": "phone_verification",
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "cloudflare-workers-ai",
+      "name": "Cloudflare Workers AI",
+      "adapter": "cloudflare_workers_ai",
+      "base_url": "https://api.cloudflare.com/client/v4",
+      "signup_url": "https://dash.cloudflare.com/",
+      "free_tier_class": "provider_free_tier",
+      "requires_card": false,
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "adapter": "cohere_native",
+      "base_url": "https://api.cohere.com/v2",
+      "signup_url": "https://dashboard.cohere.com/api-keys",
+      "free_tier_class": "provider_free_tier",
+      "requires_card": false,
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "z-ai",
+      "name": "Z AI (Zhipu)",
+      "adapter": "openai_compatible",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "signup_url": "https://open.bigmodel.cn/usercenter/apikeys",
+      "free_tier_class": "provider_free_tier",
+      "requires_card": false,
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "siliconflow",
+      "name": "SiliconFlow",
+      "adapter": "openai_compatible",
+      "base_url": "https://api.siliconflow.cn/v1",
+      "signup_url": "https://cloud.siliconflow.cn/account/ak",
+      "free_tier_class": "registration_based",
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "adapter": "openai_compatible",
+      "base_url": "https://openrouter.ai/api/v1",
+      "signup_url": "https://openrouter.ai/keys",
+      "free_tier_class": "mixed_free_models_and_credits",
+      "enabled": false,
+      "verification_status": "pending"
+    },
+    {
+      "id": "ollama-self-hosted",
+      "name": "Ollama (self-hosted)",
+      "adapter": "ollama_native",
+      "base_url": null,
+      "signup_url": "https://ollama.com/",
+      "free_tier_class": "self_hosted_no_provider_quota",
+      "enabled": false,
+      "verification_status": "operator_configuration_required"
+    }
+  ]
+}
